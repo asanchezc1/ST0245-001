@@ -37,9 +37,8 @@ public class insertionsort
                 long starTime = System.currentTimeMillis(); 
                 insertionsort(crearArray(b));
                 long tiempo = System.currentTimeMillis() - starTime;
-                System.out.println(crearArray(b).length+ ""+tiempo);
+                System.out.println(crearArray(b).length+ " " +tiempo);
             }
         }
         }
-        
         
